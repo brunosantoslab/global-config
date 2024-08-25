@@ -1,0 +1,152 @@
+# Java related
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.log
+*.jks
+*.p12
+*.pem
+*.crt
+*.key
+*.csr
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.c9/
+.tern-project
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+*.egg-info/
+*.eggs
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+.pip/
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Local env files
+.env
+*.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignoring keystore and sensitive keys
+server.jks
+*.jks
+*.p12
+*.pem
+*.crt
+*.key
+
+# Ignore additional files based on the project
+# Additional custom ignore rules can be added here if needed
