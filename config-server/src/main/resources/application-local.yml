@@ -1,0 +1,14 @@
+# application-local.yml
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/brunosantoslab/global-config
+          clone-on-start: true
+          username: '${BRUNOSANTOS_GIT_USER}'
+          password: '${BRUNOSANTOS_GIT_PASS}'
+
+encrypt:
+  key-store:
+    location: ${BRUNOSANTOS_KEYSTORE_LOCATION}
