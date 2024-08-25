@@ -1,0 +1,11 @@
+# application-dev.yml
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/brunosantoslab/global-config
+
+encrypt:
+  key-store:
+    location: ${BRUNOSANTOS_KEYSTORE_LOCATION}
